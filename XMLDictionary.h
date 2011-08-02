@@ -33,16 +33,29 @@
 #import <Foundation/Foundation.h>
 
 
+#ifndef COLLAPSE_TEXT_NODES
 #define COLLAPSE_TEXT_NODES		YES
+#endif
+#ifndef TRIM_WHITE_SPACE
 #define TRIM_WHITE_SPACE		YES
+#endif
 
+#ifndef XML_ATTRIBUTES_KEY
 #define XML_ATTRIBUTES_KEY		@"__attributes"
+#endif
+#ifndef XML_COMMENTS_KEY
 #define XML_COMMENTS_KEY		@"__comments"
+#endif
+#ifndef XML_TEXT_KEY
 #define XML_TEXT_KEY			@"__text"
+#endif
+#ifndef XML_NAME_KEY
 #define XML_NAME_KEY			@"__name"
+#endif
 
+#ifndef XML_ATTRIBUTE_PREFIX
 #define XML_ATTRIBUTE_PREFIX	@"_"
-
+#endif
 
 @interface NSDictionary (XMLDictionary)
 
