@@ -1,0 +1,45 @@
+# Mac OS X Finder and whatnot
+.DS_Store
+.LSOverride
+
+# XCode (and ancestors) per-user config (very noisy, and not relevant)
+*.mode?
+*.mode?v?
+*.perspective
+*.perspectivev?
+*.pbxuser
+xcuserdata
+project.xcworkspace
+
+# Generated files
+VersionX-revision.h
+
+# build products
+build/
+*.[o]
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+#python byte-compiled
+*.pyc
+.settings
+
+# compiled java file
+*.class
+
+# jetpack specific
+examples/JetPack/JetPack.app
+examples/*.app
+examples/*.ipa
