@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5BFFA5513E85E210067BFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BFFA5413E85E210067BFC3 /* Foundation.framework */; };
+		C5BFFA6B13E860110067BFC3 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BFFA6913E860110067BFC3 /* XMLDictionary.h */; };
+		C5BFFA6C13E860110067BFC3 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BFFA6A13E860110067BFC3 /* XMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5BFFA5113E85E210067BFC3 /* libXMLDictionary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXMLDictionary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BFFA5413E85E210067BFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5BFFA6913E860110067BFC3 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = SOURCE_ROOT; };
+		C5BFFA6A13E860110067BFC3 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BFFA4E13E85E210067BFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BFFA5513E85E210067BFC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5BFFA4613E85E210067BFC3 = {
+			isa = PBXGroup;
+			children = (
+				C5BFFA5613E85E210067BFC3 /* XMLDictionary */,
+				C5BFFA5313E85E210067BFC3 /* Frameworks */,
+				C5BFFA5213E85E210067BFC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BFFA5213E85E210067BFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BFFA5113E85E210067BFC3 /* libXMLDictionary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BFFA5313E85E210067BFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5BFFA5413E85E210067BFC3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5BFFA5613E85E210067BFC3 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C5BFFA6913E860110067BFC3 /* XMLDictionary.h */,
+				C5BFFA6A13E860110067BFC3 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5BFFA4F13E85E210067BFC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BFFA6B13E860110067BFC3 /* XMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C5BFFA5013E85E210067BFC3 /* XMLDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BFFA5E13E85E210067BFC3 /* Build configuration list for PBXNativeTarget "XMLDictionary" */;
+			buildPhases = (
+				C5BFFA4D13E85E210067BFC3 /* Sources */,
+				C5BFFA4E13E85E210067BFC3 /* Frameworks */,
+				C5BFFA4F13E85E210067BFC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLDictionary;
+			productName = XMLDictionary;
+			productReference = C5BFFA5113E85E210067BFC3 /* libXMLDictionary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BFFA4813E85E210067BFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Greenwing Enterprises";
+			};
+			buildConfigurationList = C5BFFA4B13E85E210067BFC3 /* Build configuration list for PBXProject "XMLDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5BFFA4613E85E210067BFC3;
+			productRefGroup = C5BFFA5213E85E210067BFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BFFA5013E85E210067BFC3 /* XMLDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BFFA4D13E85E210067BFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BFFA6C13E860110067BFC3 /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5BFFA5C13E85E210067BFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5BFFA5D13E85E210067BFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BFFA5F13E85E210067BFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XMLDictionary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5BFFA6013E85E210067BFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XMLDictionary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BFFA4B13E85E210067BFC3 /* Build configuration list for PBXProject "XMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BFFA5C13E85E210067BFC3 /* Debug */,
+				C5BFFA5D13E85E210067BFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BFFA5E13E85E210067BFC3 /* Build configuration list for PBXNativeTarget "XMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BFFA5F13E85E210067BFC3 /* Debug */,
+				C5BFFA6013E85E210067BFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5BFFA4813E85E210067BFC3 /* Project object */;
+}
