@@ -94,7 +94,7 @@
     }
     else if ([node isKindOfClass:[NSDictionary class]])
     {
-        NSDictionary *attributes = [node attributes];
+        NSDictionary *attributes = [(NSDictionary*) node attributes];
         NSMutableString *attributeString = [NSMutableString string];
         for (NSString *key in [attributes allKeys])
         {
